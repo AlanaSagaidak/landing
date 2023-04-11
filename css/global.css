@@ -16,8 +16,10 @@
   --subtitle-text-color: #374754;
   font-family: "Graphik", sans-serif;
   scroll-behavior: smooth;
+  background-color: grey;
 }
 
 img {
   display: block;
+  width: 100%;
 }
