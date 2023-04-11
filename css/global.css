@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Graphik";
+  src: url("path/to/graphik.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --header-text-color: #ffffff;
+  --title-text-color: #252b42;
+  --subtitle-text-color: #374754;
+
+  scroll-behavior: smooth;
+}
+
+img {
+  display: block;
+}
