@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Graphik";
-  src: url("path/to/graphik.woff2") format("woff2");
+  src: url("/fonts/Graphik-Regular-Web.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
   --header-text-color: #ffffff;
   --title-text-color: #252b42;
   --subtitle-text-color: #374754;
-
+  font-family: "Graphik", sans-serif;
   scroll-behavior: smooth;
 }
 
