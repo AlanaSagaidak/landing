@@ -1,3 +1,31 @@
+.features .title {
+  color: var(--title-text-color);
+}
+.features .subtitle {
+  color: var(--subtitle-text-color);
+}
 .features__item img {
   width: 61px;
+}
+.features__title {
+  font-size: 48px;
+  line-height: 55px;
+  text-align: center;
+  font-weight: 400;
+}
+.features__subtitle {
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+}
+.features__item-title {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  font-weight: 700;
+}
+.features__item-text {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
 }

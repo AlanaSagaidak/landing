@@ -1,11 +1,25 @@
 #header {
   background-color: blueviolet;
+  color: var(--header-text-color);
 }
-
+.header__title {
+  font-size: 74px;
+  font-weight: 700;
+  line-height: 84px;
+  text-align: center;
+}
+.header__subtitle {
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+}
 .list-item a {
   color: var(--header-text-color);
   font-size: 10px;
+  line-height: 28px;
+  text-decoration: none;
 }
+
 .header__figma-logo {
   display: flex;
   flex-direction: row;

@@ -21,7 +21,7 @@
           alt="Figma logo"
           class="header__figma-logo"
         />
-        <ul id="header__list">
+        <ul class="header__list">
           <li class="list-item"><a href="#header">Home</a></li>
           <li class="list-item"><a href="#features">Product</a></li>
           <li class="list-item"><a href="#pricing">Pricing</a></li>
@@ -40,17 +40,24 @@
           /></a>
         </div>
       </nav>
-      <h1 class="header__title">The best products start with Figma</h1>
+      <h1 class="header__title">
+        The best products <br />
+        start with Figma
+      </h1>
       <p class="header__subtitle">
         Most calendars are designed for teams. Slate is designed for freelancers
       </p>
-      <a href="#" class="header__button">Try For Free</a>
+      <div class="header__button-container">
+        <a href="#" class="header__button button">Try For Free</a>
+      </div>
     </header>
     <main>
       <section class="features" id="features">
         <div class="features__text-content">
-          <h2 class="features__title">Features</h2>
-          <p class="features__title">Most calendars are designed for teams.</p>
+          <h2 class="features__title title">Features</h2>
+          <p class="features__subtitle subtitle">
+            Most calendars are designed for teams.
+          </p>
         </div>
         <div class="features__cards cards">
           <div class="features__item">
@@ -59,11 +66,11 @@
               alt="icon variable fonts"
               class="features__item-icon"
             />
-            <h3 class="features__item-title">
+            <h3 class="features__item-title title">
               OpenType features <br />
               Variable fonts
             </h3>
-            <p class="features__item-text">
+            <p class="features__item-text subtitle">
               Slate helps you see how many more days you need to work to reach
               your financial goal.
             </p>
@@ -74,8 +81,8 @@
               alt="icon pen"
               class="features__item-icon"
             />
-            <h3 class="features__item-title">Design with real data</h3>
-            <p class="features__item-text">
+            <h3 class="features__item-title title">Design with real data</h3>
+            <p class="features__item-text subtitle">
               Slate helps you see how many more days you need to work to reach
               your financial goal.
             </p>
@@ -86,13 +93,18 @@
               alt="icon brash"
               class="features__item-icon"
             />
-            <h3 class="features__item-title">Fastest way to take action</h3>
-            <p class="features__item-text">
+            <h3 class="features__item-title title">
+              Fastest way to take action
+            </h3>
+            <p class="features__item-text subtitle">
               Slate helps you see how many more days you need to work to reach
               your financial goal.
             </p>
           </div>
         </div>
+        <video class="features__video" width="640" height="360" controls>
+          <source src="#" type="video/mp4" />
+        </video>
       </section>
       <section class="way" id="way">
         <h2 class="way__title">Fastest way to organize</h2>
@@ -102,24 +114,29 @@
       </section>
       <section class="newsletter">
         <h3 class="newsletter__subtitle">At your fingertips</h3>
-        <h2 class="newsletter__title">Newsletter</h2>
+        <p class="newsletter__title">Lightning fast prototyping</p>
+        <!--<h2 class="newsletter__title">Newsletter</h2>
         <p class="newsletter__text">
           Most calendars are designed for teams. Slate is designed for
           freelancers
-        </p>
-        <img
-          src="img/man-newsletter.png"
-          alt="icon man newsletter"
-          class="newsletter__img"
-        />
+        </p>-->
         <p class="newsletter__text-bottom-title">Subscribe to our Newsletter</p>
         <p class="newsletter__text-bottom">
           Available exclusivery on Figmaland
         </p>
         <form class="newsletter__form">
           <input type="text" placeholder="Your Email" />
-          <button>Subscribe</button>
+          <input
+            type="submit"
+            class="newsletter__form-button"
+            value="Subscribe"
+          />
         </form>
+        <img
+          src="img/man-newsletter.png"
+          alt="icon man newsletter"
+          class="newsletter__img"
+        />
       </section>
       <section class="partners">
         <h2 class="partners__title">Partners</h2>
