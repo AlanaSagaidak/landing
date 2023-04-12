@@ -1,4 +1,34 @@
+.newsletter {
+  color: var(--title-text-color);
+}
 .newsletter__img {
   width: 677px;
   height: 514px;
+}
+.newsletter__subtitle {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+}
+.newsletter__title {
+  font-size: 48px;
+  line-height: 55px;
+  font-weight: 400;
+}
+.newsletter__text-bottom-title {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+}
+.newsletter__text-bottom {
+  color: var(--subtitle-text-color);
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+}
+.newsletter__form-text {
+  color: #18171d;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
 }
